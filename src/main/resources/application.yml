@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+
+          google:
+            client-id: 552200678653-h2k7bpmsl9fub9c14kflc4n8etc5or0m.apps.googleusercontent.com
+            client-secret: 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
+            scope: email,profile
+            redirect-uri: http://localhost:8080/login/oauth2/code/google
+#          facebook:
+#            app-id: 960825245372418
+#            app-secret: ba8f21ffa360f15e6c13bef951891414
+#            scope: email,public_profile
+#            redirect-uri: http://localhost:8080/login/oauth2/code/facebook
